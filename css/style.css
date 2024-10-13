@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+.header{
+    position: relative;
+    background-size: 100% 100%;
+    background-image: url('../images/header.jpg');
+}
+.nav {
+    position: sticky;
+    top: 26px;
+    color: #fff;
+}
+
+.ul {
+    list-style: none;
+}
+
+.active {
+    color:#42f59e;
+    cursor: pointer;
+    position: relative;
+    border-bottom:1px solid #42f59e;
+}
+
+.overlay{
+    position:absolute;
+    background-color: #33333370;
+    width: 100%;
+}
+
+.bx-wrapper {
+    box-shadow: none !important;
+    border: none !important;
+    background:none !important;
+    text-align: center;
+}
+
+.bxslider{
+    position: absolute;
+    top:45%;
+}
+
+.bxslider p{
+    color: #fff;
+}
